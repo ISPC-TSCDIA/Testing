@@ -1,0 +1,1896 @@
+{
+  "id": "1c7ca233-4f3d-4862-9418-4de80f052b23",
+  "version": "2.0",
+  "name": "Evidencia 2",
+  "url": "https://www.autocosmos.com.ar",
+  "tests": [{
+    "id": "65f26abf-4a0b-4114-83ca-395ff3db0d9b",
+    "name": "Caso de prueba 1",
+    "commands": [{
+      "id": "f10c8826-edef-40cd-a398-ee92dd11656f",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dd7cbd4b-a595-4b47-bc5d-a2484c7215c4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ed8eaa83-cf02-4f98-9bda-ddb4f9275191",
+      "comment": "",
+      "command": "click",
+      "target": "css=.user-icon > path",
+      "targets": [
+        ["css=.user-icon > path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "c13e4553-5b65-4229-93c1-073f4bdc2eb3",
+      "comment": "",
+      "command": "click",
+      "target": "id=Email",
+      "targets": [
+        ["id=Email", "id"],
+        ["name=Email", "name"],
+        ["css=#Email", "css:finder"],
+        ["xpath=//input[@id='Email']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "12b30727-d2d6-46dd-9fe5-b8ef6c206a6c",
+      "comment": "",
+      "command": "type",
+      "target": "id=Email",
+      "targets": [
+        ["id=Email", "id"],
+        ["name=Email", "name"],
+        ["css=#Email", "css:finder"],
+        ["xpath=//input[@id='Email']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "2554jannel@rustyload.com"
+    }, {
+      "id": "fc438730-f333-4ff1-9ad6-4cd61aff941a",
+      "comment": "",
+      "command": "click",
+      "target": "id=passSecret",
+      "targets": [
+        ["id=passSecret", "id"],
+        ["name=Password", "name"],
+        ["css=#passSecret", "css:finder"],
+        ["xpath=//input[@id='passSecret']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc37fff0-70ea-485b-85c2-a2db050df385",
+      "comment": "",
+      "command": "type",
+      "target": "id=passSecret",
+      "targets": [
+        ["id=passSecret", "id"],
+        ["name=Password", "name"],
+        ["css=#passSecret", "css:finder"],
+        ["xpath=//input[@id='passSecret']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "pepito1234"
+    }, {
+      "id": "71035489-956d-4d78-b442-1f2ac7e7d91f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.section",
+      "targets": [
+        ["css=.section", "css:finder"],
+        ["xpath=//section", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8229ab7d-a19e-4672-a272-a20d56584809",
+      "comment": "",
+      "command": "click",
+      "target": "css=.m-primary:nth-child(1)",
+      "targets": [
+        ["css=.m-primary:nth-child(1)", "css:finder"],
+        ["xpath=//input[@value='Iniciar sesión']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "5ebd5687-e65d-472d-9876-174e25fec3a3",
+    "name": "Caso de prueba 2",
+    "commands": [{
+      "id": "bd6dfc99-c739-466d-b58c-94c7f3d6bcfb",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0884ffb7-f0df-4516-a109-ea975c2fd202",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "95785220-23bc-4e32-80a1-5f7547da30cd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.user-icon",
+      "targets": [
+        ["css=.user-icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "94fe1358-4dd3-457a-8044-b76f8213ede3",
+      "comment": "",
+      "command": "click",
+      "target": "id=Email",
+      "targets": [
+        ["id=Email", "id"],
+        ["name=Email", "name"],
+        ["css=#Email", "css:finder"],
+        ["xpath=//input[@id='Email']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f82605e-e19c-4b62-a5c8-ad531b25db52",
+      "comment": "",
+      "command": "type",
+      "target": "id=Email",
+      "targets": [
+        ["id=Email", "id"],
+        ["name=Email", "name"],
+        ["css=#Email", "css:finder"],
+        ["xpath=//input[@id='Email']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "jannel@rustyload.com"
+    }, {
+      "id": "2ac353b4-ec4c-4a9c-8934-6881bd35080c",
+      "comment": "",
+      "command": "click",
+      "target": "id=passSecret",
+      "targets": [
+        ["id=passSecret", "id"],
+        ["name=Password", "name"],
+        ["css=#passSecret", "css:finder"],
+        ["xpath=//input[@id='passSecret']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "83c481e8-83ea-4153-8d11-bf939f3224e6",
+      "comment": "",
+      "command": "type",
+      "target": "id=passSecret",
+      "targets": [
+        ["id=passSecret", "id"],
+        ["name=Password", "name"],
+        ["css=#passSecret", "css:finder"],
+        ["xpath=//input[@id='passSecret']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "pepito1234"
+    }, {
+      "id": "1f30f9b2-7988-45d6-9cf1-795f48df2ad0",
+      "comment": "",
+      "command": "click",
+      "target": "id=togglePassSecret",
+      "targets": [
+        ["id=togglePassSecret", "id"],
+        ["css=#togglePassSecret", "css:finder"],
+        ["xpath=//span[@id='togglePassSecret']", "xpath:attributes"],
+        ["xpath=//div[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'👁')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "32038a5a-9db7-4255-b06f-501daf64d33e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.m-primary:nth-child(1)",
+      "targets": [
+        ["css=.m-primary:nth-child(1)", "css:finder"],
+        ["xpath=//input[@value='Iniciar sesión']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc8ffb28-0eff-4e73-875c-b64f5a6f116f",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.validation-summary-errors li",
+      "targets": [],
+      "value": "El usuario o la contraseña son incorrectos"
+    }, {
+      "id": "032000c1-b25e-4aaf-aec7-ca68b998e1a7",
+      "comment": "",
+      "command": "click",
+      "target": "id=Email",
+      "targets": [
+        ["id=Email", "id"],
+        ["name=Email", "name"],
+        ["css=#Email", "css:finder"],
+        ["xpath=//input[@id='Email']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e2244d0-5929-4dae-852f-e43fb3b8dd3b",
+      "comment": "",
+      "command": "type",
+      "target": "id=Email",
+      "targets": [
+        ["id=Email", "id"],
+        ["name=Email", "name"],
+        ["css=#Email", "css:finder"],
+        ["xpath=//input[@id='Email']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0591571c-78cf-479c-9aef-f1f443da92bf",
+      "comment": "",
+      "command": "type",
+      "target": "id=Email",
+      "targets": [
+        ["id=Email", "id"],
+        ["name=Email", "name"],
+        ["css=#Email", "css:finder"],
+        ["xpath=//input[@id='Email']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "2554jannel@rustyload.com"
+    }, {
+      "id": "53cb7b20-cc9f-4f47-b216-8546228e4858",
+      "comment": "",
+      "command": "click",
+      "target": "id=passSecret",
+      "targets": [
+        ["id=passSecret", "id"],
+        ["name=Password", "name"],
+        ["css=#passSecret", "css:finder"],
+        ["xpath=//input[@id='passSecret']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7350f36b-503f-4127-bb7e-83d5a6145e1b",
+      "comment": "",
+      "command": "type",
+      "target": "id=passSecret",
+      "targets": [
+        ["id=passSecret", "id"],
+        ["name=Password", "name"],
+        ["css=#passSecret", "css:finder"],
+        ["xpath=//input[@id='passSecret']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "programador10"
+    }, {
+      "id": "1169f6d2-169e-4774-b194-e8cfd5c56328",
+      "comment": "",
+      "command": "click",
+      "target": "id=togglePassSecret",
+      "targets": [
+        ["id=togglePassSecret", "id"],
+        ["css=#togglePassSecret", "css:finder"],
+        ["xpath=//span[@id='togglePassSecret']", "xpath:attributes"],
+        ["xpath=//div[3]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'👁')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "413daa67-456c-4ce8-b09d-5e2a934fde40",
+      "comment": "",
+      "command": "click",
+      "target": "css=.m-primary:nth-child(1)",
+      "targets": [
+        ["css=.m-primary:nth-child(1)", "css:finder"],
+        ["xpath=//input[@value='Iniciar sesión']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e6d1fc07-18a5-4a0f-b081-b42d288aa1d5",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.validation-summary-errors li",
+      "targets": [],
+      "value": "El usuario o la contraseña son incorrectos"
+    }]
+  }, {
+    "id": "0a66fcae-d43c-4779-8b32-19502c278760",
+    "name": "Caso de prueba 3",
+    "commands": [{
+      "id": "881eb299-62dd-4ef7-8734-a3a9fdc0ac79",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4969d42d-d4ad-4747-991f-d7fffa104d8b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "844db345-21a5-4f22-8301-250ba95cbbde",
+      "comment": "",
+      "command": "click",
+      "target": "css=.user-icon > path",
+      "targets": [
+        ["css=.user-icon > path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e66cea0-592d-4368-b044-1411f864fc1b",
+      "comment": "",
+      "command": "click",
+      "target": "id=Email",
+      "targets": [
+        ["id=Email", "id"],
+        ["name=Email", "name"],
+        ["css=#Email", "css:finder"],
+        ["xpath=//input[@id='Email']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6749cba1-a80c-4cb5-8ef3-539d97655a57",
+      "comment": "",
+      "command": "type",
+      "target": "id=Email",
+      "targets": [
+        ["id=Email", "id"],
+        ["name=Email", "name"],
+        ["css=#Email", "css:finder"],
+        ["xpath=//input[@id='Email']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "2554jannel@rustyload.com"
+    }, {
+      "id": "19f7d9c2-7fd4-4758-ab1d-eb7ee34bcd90",
+      "comment": "",
+      "command": "click",
+      "target": "id=passSecret",
+      "targets": [
+        ["id=passSecret", "id"],
+        ["name=Password", "name"],
+        ["css=#passSecret", "css:finder"],
+        ["xpath=//input[@id='passSecret']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5fcd1c37-d474-4f22-bb5b-900bddcc39d6",
+      "comment": "",
+      "command": "type",
+      "target": "id=passSecret",
+      "targets": [
+        ["id=passSecret", "id"],
+        ["name=Password", "name"],
+        ["css=#passSecret", "css:finder"],
+        ["xpath=//input[@id='passSecret']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "pepito1234"
+    }, {
+      "id": "f64c4179-848f-4718-ad08-f0c475372864",
+      "comment": "",
+      "command": "click",
+      "target": "css=.section",
+      "targets": [
+        ["css=.section", "css:finder"],
+        ["xpath=//section", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "efb60777-fbdb-442c-b3a6-18760dc3056d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.m-primary:nth-child(1)",
+      "targets": [
+        ["css=.m-primary:nth-child(1)", "css:finder"],
+        ["xpath=//input[@value='Iniciar sesión']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f27469be-9a09-42a8-98f6-2c9f7fc26025",
+      "comment": "",
+      "command": "click",
+      "target": "css=.userName",
+      "targets": [
+        ["css=.userName", "css:finder"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Marcos Torres')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e4d37ec-374b-4735-997a-c8cb3b40f031",
+      "comment": "",
+      "command": "click",
+      "target": "css=button:nth-child(1)",
+      "targets": [
+        ["css=button:nth-child(1)", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//nav/form/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "7bc8b562-9186-46fb-9336-ce0acda4f5c8",
+    "name": "Caso de prueba 4",
+    "commands": [{
+      "id": "99661894-32aa-4c51-b8b2-4fcf65e0bcf2",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ccefe8bd-5acd-4477-bc73-630e38b375fe",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cc156594-d07e-4a7f-8c11-c2581f834faa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.user-icon > path",
+      "targets": [
+        ["css=.user-icon > path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "a6e65a9b-669d-4abc-9fa7-82cac0a0d4c2",
+      "comment": "",
+      "command": "click",
+      "target": "id=Email",
+      "targets": [
+        ["id=Email", "id"],
+        ["name=Email", "name"],
+        ["css=#Email", "css:finder"],
+        ["xpath=//input[@id='Email']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "773b5253-5e57-4a67-83dd-cf16f5be70da",
+      "comment": "",
+      "command": "type",
+      "target": "id=Email",
+      "targets": [
+        ["id=Email", "id"],
+        ["name=Email", "name"],
+        ["css=#Email", "css:finder"],
+        ["xpath=//input[@id='Email']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "2554jannel@rustyload.com"
+    }, {
+      "id": "92f186a9-2f11-4b31-a973-657010d48c9e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-container",
+      "targets": [
+        ["css=.form-container", "css:finder"],
+        ["xpath=//fieldset/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3e96d81-1a7e-4c52-a0b1-71254ab2159a",
+      "comment": "",
+      "command": "click",
+      "target": "id=passSecret",
+      "targets": [
+        ["id=passSecret", "id"],
+        ["name=Password", "name"],
+        ["css=#passSecret", "css:finder"],
+        ["xpath=//input[@id='passSecret']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f89f1ee0-5a48-4752-81b9-dcb6733d8be6",
+      "comment": "",
+      "command": "type",
+      "target": "id=passSecret",
+      "targets": [
+        ["id=passSecret", "id"],
+        ["name=Password", "name"],
+        ["css=#passSecret", "css:finder"],
+        ["xpath=//input[@id='passSecret']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "pepito1234"
+    }, {
+      "id": "5ce70d2d-1a17-4fe5-afbf-5f1dcf3eca75",
+      "comment": "",
+      "command": "click",
+      "target": "css=.section",
+      "targets": [
+        ["css=.section", "css:finder"],
+        ["xpath=//section", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ee59fc4-ca53-4578-8e37-9c8b22f0566e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.m-primary:nth-child(1)",
+      "targets": [
+        ["css=.m-primary:nth-child(1)", "css:finder"],
+        ["xpath=//input[@value='Iniciar sesión']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca1729e8-7565-44b3-899d-5b61cce9b7ab",
+      "comment": "",
+      "command": "click",
+      "target": "css=.userName",
+      "targets": [
+        ["css=.userName", "css:finder"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Marcos Torres')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8d550334-53cd-4712-bc94-1096ae217e90",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Mi Cuenta",
+      "targets": [
+        ["linkText=Mi Cuenta", "linkText"],
+        ["css=.header__user-nav > a:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Mi Cuenta')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/myspace')])[3]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Mi Cuenta')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0413c99-c9e1-409a-ad0b-e64ef3c1e560",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.particular__text > h1",
+      "targets": [
+        ["css=.particular__text > h1", "css:finder"],
+        ["xpath=//section/div/h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Te damos la bienvenida a Autocosmos')]", "xpath:innerText"]
+      ],
+      "value": "Te damos la bienvenida a Autocosmos"
+    }, {
+      "id": "696911f5-9eae-4dac-bd30-79012bcbb119",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.particular__text > p:nth-child(2)",
+      "targets": [
+        ["css=.particular__text > p:nth-child(2)", "css:finder"],
+        ["xpath=//section/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'¡Hola Marcos! Ya formás parte de Autocosmos, empezá a disfrutar las herramientas que diseñamos para tu necesidad. ¿Necesitás ayuda? Contactanos.')]", "xpath:innerText"]
+      ],
+      "value": "¡Hola Marcos! Ya formás parte de Autocosmos, empezá a disfrutar las herramientas que diseñamos para tu necesidad. ¿Necesitás ayuda? Contactanos."
+    }]
+  }, {
+    "id": "34e0b97a-fa26-491f-be3a-0c0ded68fc4a",
+    "name": "Caso de prueba 5",
+    "commands": [{
+      "id": "b56255b6-3092-481f-a357-cd3137299e02",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "511a8e9c-8f2e-4d5f-a702-75b23a4a25a3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fc09ac4c-4d8d-440b-9609-f9ae9be1f898",
+      "comment": "",
+      "command": "click",
+      "target": "css=#search > .search-icon",
+      "targets": [
+        ["css=#search > .search-icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "d4451797-9ca4-436c-a2a2-3b62c8943325",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.header__search-input", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Toyota"
+    }, {
+      "id": "662af0b9-855f-42fe-8713-8f5c837d3358",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header__search-submit path",
+      "targets": [
+        ["css=.header__search-submit path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "9eaed898-3df0-47d7-956a-80e405a737ae",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.teaser__title",
+      "targets": [],
+      "value": "Resultados para: Toyota"
+    }]
+  }, {
+    "id": "32e47736-8a50-43a9-9d4c-98200baa6fad",
+    "name": "Caso de prueba 7",
+    "commands": [{
+      "id": "96281547-44a2-4d9b-ac2a-3d606820c33c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f3763e8f-14dc-4c09-8176-c908bd300d0f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b80f92be-b601-4912-9b60-f2bca37eab76",
+      "comment": "",
+      "command": "click",
+      "target": "css=.social-fb",
+      "targets": [
+        ["css=.social-fb", "css:finder"],
+        ["xpath=//a[contains(@href, 'https://www.facebook.com/Autocosmos.Argentina')]", "xpath:href"],
+        ["xpath=//footer/div/ul/li/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win9759",
+      "windowTimeout": 2000
+    }, {
+      "id": "b44ec522-82d3-4dd0-88ec-2ae0399b88e6",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0fdb0b88-5073-4ec7-8e85-0b4bac7aa724",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win9759}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0c43e400-4c7b-4e9f-aaee-286bbf423a22",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cb9f8ae1-3801-4a67-b3e9-19d3e6921f3f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.social-tw",
+      "targets": [
+        ["css=.social-tw", "css:finder"],
+        ["xpath=//a[contains(@href, 'https://twitter.com/autocosmos_ar')]", "xpath:href"],
+        ["xpath=//footer/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win7784",
+      "windowTimeout": 2000
+    }, {
+      "id": "27f8a266-8cef-4b3e-bc05-1aa6bb264199",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win7784}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3021dd36-ff80-41d5-9db3-bfea35f7f975",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b45fbb8b-2e50-4309-a80f-e92512baac94",
+      "comment": "",
+      "command": "click",
+      "target": "css=.social-yt",
+      "targets": [
+        ["css=.social-yt", "css:finder"],
+        ["xpath=//a[contains(@href, 'https://www.youtube.com/user/AutocosmosAR')]", "xpath:href"],
+        ["xpath=//footer/div/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win582",
+      "windowTimeout": 2000
+    }, {
+      "id": "2f6ddaa5-4952-4b11-881c-d907f7edc4fa",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win582}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b8c3e619-50df-4c4e-9eb8-41261f879be6",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "6d320d3a-1784-45cb-97f0-3b40333a3a25",
+    "name": "Caso de prueba 8",
+    "commands": [{
+      "id": "61e816cf-3277-46b7-bb28-57e637c84dcb",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "684753c0-1d89-4c6d-acae-884216feec48",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "28bbad3f-1382-4421-8011-4a51da577eab",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Clasificados",
+      "targets": [
+        ["linkText=Clasificados", "linkText"],
+        ["css=li:nth-child(3) > .subNav__item", "css:finder"],
+        ["xpath=//a[contains(text(),'Clasificados')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.autocosmos.com.ar/auto')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Clasificados')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "38d78a47-004d-4c2a-9908-a7e33af02453",
+      "comment": "",
+      "command": "click",
+      "target": "css=.listing-container:nth-child(3) > .card:nth-child(5) img",
+      "targets": [
+        ["css=.listing-container:nth-child(3) > .card:nth-child(5) img", "css:finder"],
+        ["xpath=//img[@alt='Ford Ranger XLS 3.2L 4x4 TDi CD usado (2018) color Negro Perla financiado en cuotas(anticipo $1.300.000 cuotas desde $300.000)']", "xpath:img"],
+        ["xpath=//article[5]/a/figure/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b8101b6c-72e6-489e-b119-852dc9349720",
+      "comment": "",
+      "command": "click",
+      "target": "css=img:nth-child(2)",
+      "targets": [
+        ["css=img:nth-child(2)", "css:finder"],
+        ["xpath=//img[@alt='foto Ford Ranger XLS 3.2L 4x4 TDi CD financiado en cuotas anticipo $1.300.000 cuotas desde $300.000']", "xpath:img"],
+        ["xpath=//picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "25479f95-2d0b-468a-8057-dde3644fa2ea",
+      "comment": "",
+      "command": "click",
+      "target": "css=.angle-right-solid",
+      "targets": [
+        ["css=.angle-right-solid", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "68cd4ecf-4d50-4fd6-afd0-809856fcfd0f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.angle-right-solid",
+      "targets": [
+        ["css=.angle-right-solid", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "93e1349e-c0c3-49a3-8adb-c3f94d98496b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.angle-right-solid",
+      "targets": [
+        ["css=.angle-right-solid", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "7df8ac5e-ed97-498b-97de-ad4def91366b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.angle-right-solid",
+      "targets": [
+        ["css=.angle-right-solid", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "253b1b29-18d4-475c-9fff-9f1bed615c17",
+      "comment": "",
+      "command": "click",
+      "target": "css=.angle-right-solid",
+      "targets": [
+        ["css=.angle-right-solid", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9b13612-eabc-4c9f-a010-583dbb35dc00",
+      "comment": "",
+      "command": "click",
+      "target": "css=.angle-right-solid",
+      "targets": [
+        ["css=.angle-right-solid", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb2be294-0003-4b95-9a55-69688b565009",
+      "comment": "",
+      "command": "click",
+      "target": "css=.angle-right-solid",
+      "targets": [
+        ["css=.angle-right-solid", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c7ad120-3e3e-4765-a115-5979c28d1d74",
+      "comment": "",
+      "command": "click",
+      "target": "css=.angle-right-solid",
+      "targets": [
+        ["css=.angle-right-solid", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "eff56d57-f6e4-4474-85c0-72bed76ce273",
+      "comment": "",
+      "command": "click",
+      "target": "css=header > .btn",
+      "targets": [
+        ["css=header > .btn", "css:finder"],
+        ["xpath=//section[@id='slider-dialog']/div/header/button", "xpath:idRelative"],
+        ["xpath=//header/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "5d7bdb3a-aedb-4e34-8711-5beb620517de",
+    "name": "Caso de prueba 9",
+    "commands": [{
+      "id": "3ba1ca87-8c54-453e-b429-67d874e3697b",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "28754d1b-35d2-445a-b260-31cce7e1827d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ccf00a17-a9c4-4c1c-9a9d-d6708721eee4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Términos y condiciones",
+      "targets": [
+        ["linkText=Términos y condiciones", "linkText"],
+        ["css=.company-links li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Términos y condiciones')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.autocosmos.com.ar/institucional/terminoscondiciones')]", "xpath:href"],
+        ["xpath=//nav/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Términos y condiciones')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "17de4488-bebf-4c5d-807c-1b34e32df869",
+      "comment": "",
+      "command": "click",
+      "target": "css=.teaser__title",
+      "targets": [
+        ["css=.teaser__title", "css:finder"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Términos y condiciones')]", "xpath:innerText"]
+      ],
+      "value": "Términos y condiciones"
+    }, {
+      "id": "21becab8-4e08-4361-b6d2-3104cd43cd2e",
+      "comment": "",
+      "command": "click",
+      "target": "css=h2:nth-child(1)",
+      "targets": [],
+      "value": "Acuerdo entre el Usuario y Autocosmos"
+    }, {
+      "id": "8c817ff5-a5aa-40d7-bd60-45e767bde1cb",
+      "comment": "",
+      "command": "click",
+      "target": "css=h2:nth-child(4)",
+      "targets": [],
+      "value": "Registración"
+    }, {
+      "id": "003e540a-cf5e-4577-89f7-c4eab3db0075",
+      "comment": "",
+      "command": "click",
+      "target": "css=h2:nth-child(9)",
+      "targets": [],
+      "value": "Servicios ofrecidos"
+    }, {
+      "id": "9231d7f6-81f3-487d-bf7e-1573810e58a2",
+      "comment": "",
+      "command": "click",
+      "target": "css=h2:nth-child(13)",
+      "targets": [],
+      "value": "Responsabilidad"
+    }, {
+      "id": "958cce66-0b87-4729-b39f-174da7d06690",
+      "comment": "",
+      "command": "click",
+      "target": "css=h2:nth-child(15)",
+      "targets": [],
+      "value": "Uso de Internet y del Sitio"
+    }, {
+      "id": "c734123e-c565-4245-9d26-3aed10a88054",
+      "comment": "",
+      "command": "click",
+      "target": "css=h2:nth-child(17)",
+      "targets": [],
+      "value": "Autos"
+    }, {
+      "id": "29b774ce-f038-4d47-b9b1-982db91e0c26",
+      "comment": "",
+      "command": "click",
+      "target": "css=h2:nth-child(20)",
+      "targets": [],
+      "value": "Seguros"
+    }, {
+      "id": "7236afa7-6d15-4d99-8f87-8d6884b9576f",
+      "comment": "",
+      "command": "click",
+      "target": "css=h2:nth-child(22)",
+      "targets": [],
+      "value": "Financiación"
+    }, {
+      "id": "ae18e1c8-fec7-4fa9-8ad2-1beb3830be27",
+      "comment": "",
+      "command": "click",
+      "target": "css=h2:nth-child(24)",
+      "targets": [],
+      "value": "Prohibiciones"
+    }, {
+      "id": "4a8151d9-de24-4a2d-b79f-69dfc56db8ad",
+      "comment": "",
+      "command": "click",
+      "target": "css=h2:nth-child(26)",
+      "targets": [],
+      "value": "Propiedad intelectual"
+    }, {
+      "id": "62ba5bd8-af76-4c14-b628-a6d5cc88a919",
+      "comment": "",
+      "command": "click",
+      "target": "css=h2:nth-child(29)",
+      "targets": [],
+      "value": "Indemnidad"
+    }, {
+      "id": "1e40e30c-4776-4851-bcdf-074f243ddf73",
+      "comment": "",
+      "command": "click",
+      "target": "css=h2:nth-child(31)",
+      "targets": [],
+      "value": "Modificaciones de los términos y condiciones"
+    }, {
+      "id": "71dcc54c-0162-489e-80f6-10ffe49d6db8",
+      "comment": "",
+      "command": "click",
+      "target": "css=h2:nth-child(33)",
+      "targets": [],
+      "value": "Ley aplicable y jurisdicción"
+    }, {
+      "id": "1920a938-73ca-4e86-8669-084851c2d593",
+      "comment": "",
+      "command": "click",
+      "target": "css=h2:nth-child(35)",
+      "targets": [],
+      "value": "Domicilio"
+    }]
+  }, {
+    "id": "2235fd74-5f2c-4e29-a298-28bae6de63d5",
+    "name": "Caso de prueba 10",
+    "commands": [{
+      "id": "3742a436-4b4e-48e8-8d8b-d394781abf2a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e74ad34d-cddd-4517-bdb8-07df6db97b8d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fef51508-1bd5-41ff-b96c-41e0ac6fb3a8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Clasificados",
+      "targets": [
+        ["linkText=Clasificados", "linkText"],
+        ["css=li:nth-child(3) > .subNav__item", "css:finder"],
+        ["xpath=//a[contains(text(),'Clasificados')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.autocosmos.com.ar/auto')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Clasificados')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f9d56ef-bea9-460e-9328-0ead676823a2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.listing-container:nth-child(3) > .card:nth-child(5) .listing-card__content",
+      "targets": [
+        ["css=.listing-container:nth-child(3) > .card:nth-child(5) .listing-card__content", "css:finder"],
+        ["xpath=//article[5]/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a61f1b6-2f01-44c0-8672-a53f9372e2eb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.section:nth-child(2) > .section__subtitle",
+      "targets": [],
+      "value": "Especificaciones técnicas"
+    }, {
+      "id": "1b400bd5-96bc-4813-b2ac-94b464c6ecd3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.section:nth-child(2) > .grid-container:nth-child(2) .m-two-items-table:nth-child(1) .m-small",
+      "targets": [],
+      "value": "Motor"
+    }, {
+      "id": "537281c1-ae28-4712-9832-7a998e14f3c7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.section:nth-child(2) > .grid-container:nth-child(2) .m-two-items-table:nth-child(2) .m-small",
+      "targets": [],
+      "value": "Performance"
+    }, {
+      "id": "f10d5de6-db44-49d8-9941-ddf9747160d8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.section:nth-child(2) > .grid-container:nth-child(3) .m-two-items-table:nth-child(1) .m-small",
+      "targets": [],
+      "value": "Transmisión y chasis"
+    }, {
+      "id": "658eb758-4c5e-4006-b2c9-4973bb694ae3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.grid-container:nth-child(3) .m-two-items-table:nth-child(2) .m-small",
+      "targets": [],
+      "value": "Medidas y capacidades"
+    }, {
+      "id": "4912b730-2312-443f-a5c4-4c58d2869107",
+      "comment": "",
+      "command": "click",
+      "target": "css=.section:nth-child(4) > .section__subtitle",
+      "targets": [],
+      "value": "Equipamiento"
+    }, {
+      "id": "1fb700b6-5c04-448a-be18-57e5b128bd7e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.section:nth-child(4) > .grid-container:nth-child(2) .m-two-items-table:nth-child(1) .m-small",
+      "targets": [],
+      "value": "Confort"
+    }, {
+      "id": "52de21ff-c9a3-4c0e-b8d0-b2f6ad6e0214",
+      "comment": "",
+      "command": "click",
+      "target": "css=.section:nth-child(4) .m-two-items-table:nth-child(2) .m-small",
+      "targets": [],
+      "value": "Seguridad"
+    }, {
+      "id": "a56c1f42-04f2-4bb8-b807-cb372983b874",
+      "comment": "",
+      "command": "click",
+      "target": "css=.section:nth-child(4) > .grid-container:nth-child(3) .m-small",
+      "targets": [],
+      "value": "Comunicación y entretenimiento"
+    }]
+  }, {
+    "id": "e195ca1e-0baa-4df1-a815-92ab2dd19063",
+    "name": "Caso de prueba 6",
+    "commands": [{
+      "id": "484c3eb4-1bd2-49db-91c5-0e100186a5a6",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "389d1cac-3781-4aa6-8790-8687a864d114",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "72f7070d-2a70-4b00-9f7e-b12b60abaf05",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Clasificados",
+      "targets": [
+        ["linkText=Clasificados", "linkText"],
+        ["css=li:nth-child(3) > .subNav__item", "css:finder"],
+        ["xpath=//a[contains(text(),'Clasificados')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.autocosmos.com.ar/auto')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Clasificados')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "45d01b23-9f64-4357-bd69-3acf95bde631",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filtros__container-content > h2",
+      "targets": [
+        ["css=.filtros__container-content > h2", "css:finder"],
+        ["xpath=//div[2]/div/div/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Filtrar por')]", "xpath:innerText"]
+      ],
+      "value": "Filtrar por"
+    }, {
+      "id": "cfd9cd35-eeea-48d6-836c-225ea5a5259b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filtros__item:nth-child(2) > .filtros__title",
+      "targets": [
+        ["css=.filtros__item:nth-child(2) > .filtros__title", "css:finder"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Condición')]", "xpath:innerText"]
+      ],
+      "value": "Condición"
+    }, {
+      "id": "c3136f1e-5dcc-4164-9a2c-7d1521d73a0c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filtros__item:nth-child(2) li:nth-child(1) > a",
+      "targets": [
+        ["css=.filtros__item:nth-child(2) li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(@href, '/auto/nuevo')]", "xpath:href"],
+        ["xpath=//div/div[2]/div/div/div/ul/li/a", "xpath:position"]
+      ],
+      "value": "Nuevos 0km"
+    }, {
+      "id": "1dc8dac1-c893-4782-945e-c702662272c3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filtros-aplicados__item-icon > path",
+      "targets": [
+        ["css=.filtros-aplicados__item-icon > path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "13e583c7-16d9-4ad9-943a-354fff5a29c0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filtros__item:nth-child(2) li:nth-child(2) > a",
+      "targets": [
+        ["css=.filtros__item:nth-child(2) li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(@href, '/auto/usado')]", "xpath:href"],
+        ["xpath=//div/div[2]/div/div/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": "Usados"
+    }, {
+      "id": "ab984a3a-4f2d-4666-806d-b9553a83d26d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filtros-aplicados__item-icon > path",
+      "targets": [
+        ["css=.filtros-aplicados__item-icon > path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0c7a543-bc5c-41ce-854f-3e76562f83c2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filtros__item:nth-child(3) > .filtros__title",
+      "targets": [
+        ["css=.filtros__item:nth-child(3) > .filtros__title", "css:finder"],
+        ["xpath=//div[2]/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Sección')]", "xpath:innerText"]
+      ],
+      "value": "Sección"
+    }, {
+      "id": "e6e6e1a5-50d1-4c09-a5b9-8eb1014f8e77",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filtros__item:nth-child(3) li:nth-child(1) > a",
+      "targets": [
+        ["css=.filtros__item:nth-child(3) li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(@href, '/auto?seccion=financiados')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li/a", "xpath:position"]
+      ],
+      "value": "en Cuotas"
+    }, {
+      "id": "af4d2a01-69e3-43e7-8d57-c2247a9ad168",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filtros-aplicados__item-icon > path",
+      "targets": [
+        ["css=.filtros-aplicados__item-icon > path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3338cba-427b-4f5c-8a24-f41365d78e04",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filtros__item:nth-child(3) li:nth-child(2) > a",
+      "targets": [
+        ["css=.filtros__item:nth-child(3) li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(@href, '/auto?seccion=ofertas')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": "Ofertas"
+    }, {
+      "id": "ff81b50f-1d61-4294-b166-e5be44ca605d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filtros-aplicados__item-icon",
+      "targets": [
+        ["css=.filtros-aplicados__item-icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "648ccf8c-9040-4e7e-af20-51b13956e8fb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filtros__item:nth-child(3) li:nth-child(3) > a",
+      "targets": [
+        ["css=.filtros__item:nth-child(3) li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(@href, '/auto?seccion=precio-final')]", "xpath:href"],
+        ["xpath=//div[2]/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": "Precio final"
+    }, {
+      "id": "c2e69679-b545-468a-bb6f-9a401954b946",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filtros-aplicados__item-icon",
+      "targets": [
+        ["css=.filtros-aplicados__item-icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "5370976b-d596-4401-b643-fcd8786c05c9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filtros__item:nth-child(4) > .filtros__title",
+      "targets": [
+        ["css=.filtros__item:nth-child(4) > .filtros__title", "css:finder"],
+        ["xpath=//div[3]/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Provincias')]", "xpath:innerText"]
+      ],
+      "value": "Provincias"
+    }, {
+      "id": "81d49d6f-82e5-4857-b617-f0a9ed50fda9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filtros__item:nth-child(4) li:nth-child(1) > a",
+      "targets": [
+        ["css=.filtros__item:nth-child(4) li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(@href, '/auto?pr=301')]", "xpath:href"],
+        ["xpath=//div[3]/ul/li/a", "xpath:position"]
+      ],
+      "value": "Buenos Aires"
+    }, {
+      "id": "b6fdd80e-ccca-4048-b98d-50a9a9e126e7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filtros-aplicados__item-icon > path",
+      "targets": [
+        ["css=.filtros-aplicados__item-icon > path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "b6f51537-be87-4221-a104-33f4979c7c4f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filtros__item:nth-child(4) li:nth-child(7) > a",
+      "targets": [
+        ["css=.filtros__item:nth-child(4) li:nth-child(7) > a", "css:finder"],
+        ["xpath=//a[contains(@href, '/auto?pr=305')]", "xpath:href"],
+        ["xpath=//div[3]/ul/li[7]/a", "xpath:position"]
+      ],
+      "value": "Córdoba"
+    }, {
+      "id": "c3a129f0-f46b-4eea-9ddd-04b087132708",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filtros-aplicados__item-icon > path",
+      "targets": [
+        ["css=.filtros-aplicados__item-icon > path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "df81f59b-d9b4-47ea-87bd-44af347b9972",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filtros__item:nth-child(5) > .filtros__title",
+      "targets": [
+        ["css=.filtros__item:nth-child(5) > .filtros__title", "css:finder"],
+        ["xpath=//div[4]/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Marcas')]", "xpath:innerText"]
+      ],
+      "value": "Marcas"
+    }, {
+      "id": "825889bf-4c7d-4bd1-959a-21a4d6f05ae8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filtros__item:nth-child(5) li:nth-child(7) > a",
+      "targets": [
+        ["css=.filtros__item:nth-child(5) li:nth-child(7) > a", "css:finder"],
+        ["xpath=//a[contains(@href, '/auto/listado/chevrolet')]", "xpath:href"],
+        ["xpath=//div[4]/ul/li[7]/a", "xpath:position"]
+      ],
+      "value": "Chevrolet"
+    }, {
+      "id": "749a16c6-d5af-41bc-9c0d-277aa3b93a3c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filtros-aplicados__item-icon > path",
+      "targets": [
+        ["css=.filtros-aplicados__item-icon > path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "f62e8184-381f-42c6-8a27-d6eb9d7efbfa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filtros__item:nth-child(5) li:nth-child(14) > a",
+      "targets": [
+        ["css=.filtros__item:nth-child(5) li:nth-child(14) > a", "css:finder"],
+        ["xpath=//a[contains(@href, '/auto/listado/fiat')]", "xpath:href"],
+        ["xpath=//div[4]/ul/li[14]/a", "xpath:position"]
+      ],
+      "value": "FIAT"
+    }, {
+      "id": "679612ff-628b-43c0-b786-358d49e0403f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filtros-aplicados__item-icon > path",
+      "targets": [
+        ["css=.filtros-aplicados__item-icon > path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "efded8ea-8cf0-4732-8804-72ffcaec780d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filtros__lista:nth-child(2) > li:nth-child(36) > a",
+      "targets": [
+        ["css=.filtros__lista:nth-child(2) > li:nth-child(36) > a", "css:finder"],
+        ["xpath=//a[contains(@href, '/auto/listado/renault')]", "xpath:href"],
+        ["xpath=//li[36]/a", "xpath:position"]
+      ],
+      "value": "Renault"
+    }, {
+      "id": "9ac10db2-cc8e-48ee-b0df-fd93bdb68a2a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filtros-aplicados__item-icon",
+      "targets": [
+        ["css=.filtros-aplicados__item-icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "cbfdeba7-fefc-4058-8a86-2c1dcf763160",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filtros__lista:nth-child(2) > li:nth-child(44) > a",
+      "targets": [
+        ["css=.filtros__lista:nth-child(2) > li:nth-child(44) > a", "css:finder"],
+        ["xpath=//a[contains(@href, '/auto/listado/toyota')]", "xpath:href"],
+        ["xpath=//li[44]/a", "xpath:position"]
+      ],
+      "value": "Toyota"
+    }, {
+      "id": "a09c106a-f9b4-45c9-9961-21db528a11ed",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filtros-aplicados__item-icon > path",
+      "targets": [
+        ["css=.filtros-aplicados__item-icon > path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7f5c526-7e1e-46b5-b06e-14f637710096",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filtros__lista:nth-child(2) > li:nth-child(45) > a",
+      "targets": [
+        ["css=.filtros__lista:nth-child(2) > li:nth-child(45) > a", "css:finder"],
+        ["xpath=//a[contains(@href, '/auto/listado/volkswagen')]", "xpath:href"],
+        ["xpath=//li[45]/a", "xpath:position"]
+      ],
+      "value": "Volkswagen"
+    }, {
+      "id": "18881222-13d3-4ea4-9cb3-e090f178c237",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filtros-aplicados__item-icon",
+      "targets": [
+        ["css=.filtros-aplicados__item-icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "dfd55eba-bfd1-4efd-8b33-839e5dcd864f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filtros__item:nth-child(6) > .filtros__title",
+      "targets": [
+        ["css=.filtros__item:nth-child(6) > .filtros__title", "css:finder"],
+        ["xpath=//div[5]/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Años')]", "xpath:innerText"]
+      ],
+      "value": "Años"
+    }, {
+      "id": "6e23f321-d22a-4f9e-8d5e-b7727c6d4331",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(51) > a",
+      "targets": [
+        ["css=li:nth-child(51) > a", "css:finder"],
+        ["xpath=//a[contains(@href, '/auto?a=2017')]", "xpath:href"],
+        ["xpath=//li[51]/a", "xpath:position"]
+      ],
+      "value": "2017"
+    }, {
+      "id": "12a6d834-b75d-43de-94e1-b4868e71234e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filtros-aplicados__item-icon",
+      "targets": [
+        ["css=.filtros-aplicados__item-icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca087a2d-fff9-4eae-8dd8-fe63b7c4902e",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(52) > a",
+      "targets": [
+        ["css=li:nth-child(52) > a", "css:finder"],
+        ["xpath=//a[contains(@href, '/auto?a=2018')]", "xpath:href"],
+        ["xpath=//li[52]/a", "xpath:position"]
+      ],
+      "value": "2018"
+    }, {
+      "id": "533dde36-8e09-413b-adbb-9555d044763e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filtros-aplicados__item-icon > path",
+      "targets": [
+        ["css=.filtros-aplicados__item-icon > path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a602e1c-76c9-462b-91a5-e189e83c1711",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(58) > a",
+      "targets": [
+        ["css=li:nth-child(58) > a", "css:finder"],
+        ["xpath=//a[contains(@href, '/auto?a=2024')]", "xpath:href"],
+        ["xpath=//li[58]/a", "xpath:position"]
+      ],
+      "value": "2024"
+    }, {
+      "id": "ae5aa5dc-9df4-435d-886b-5fbb396c92cf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filtros-aplicados__item-icon > path",
+      "targets": [
+        ["css=.filtros-aplicados__item-icon > path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7d5db87-6554-4076-be3a-fbdf29435f12",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filtros__item:nth-child(7) > .filtros__title",
+      "targets": [
+        ["css=.filtros__item:nth-child(7) > .filtros__title", "css:finder"],
+        ["xpath=//div[6]/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Precios')]", "xpath:innerText"]
+      ],
+      "value": "Precios"
+    }, {
+      "id": "5aac47c1-810c-43a3-b093-10755cd5fa41",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filtros__item:nth-child(7) li:nth-child(10) > a",
+      "targets": [
+        ["css=.filtros__item:nth-child(7) li:nth-child(10) > a", "css:finder"],
+        ["xpath=//a[contains(@href, '/auto?p=10')]", "xpath:href"],
+        ["xpath=//div[6]/ul/li[10]/a", "xpath:position"]
+      ],
+      "value": "Más de $25.600.000"
+    }, {
+      "id": "cd9f516d-2c8c-4bf5-9970-7ea1a00c0abe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filtros-aplicados__item-icon > path",
+      "targets": [
+        ["css=.filtros-aplicados__item-icon > path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "09450aa4-71fe-4556-aa0a-954458a23f14",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filtros__item:nth-child(8) > .filtros__title",
+      "targets": [
+        ["css=.filtros__item:nth-child(8) > .filtros__title", "css:finder"],
+        ["xpath=//div[7]/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Tipo de Vendedores')]", "xpath:innerText"]
+      ],
+      "value": "Tipo de Vendedores"
+    }, {
+      "id": "9ae55988-42ad-4d71-9702-d7b7345c8c71",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filtros__item:nth-child(8) li:nth-child(1) > a",
+      "targets": [
+        ["css=.filtros__item:nth-child(8) li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(@href, '/auto?pvem=1')]", "xpath:href"],
+        ["xpath=//div[7]/ul/li/a", "xpath:position"]
+      ],
+      "value": "Empresa"
+    }, {
+      "id": "f8f92af0-b39d-4fc7-9cb9-e7b0837ab9db",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filtros-aplicados__item-icon",
+      "targets": [
+        ["css=.filtros-aplicados__item-icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "206e3068-58c9-4756-827b-3de7ae6de2b1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filtros__item:nth-child(8) li:nth-child(2) > a",
+      "targets": [
+        ["css=.filtros__item:nth-child(8) li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(@href, '/auto?pvem=0')]", "xpath:href"],
+        ["xpath=//div[7]/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": "Particular"
+    }, {
+      "id": "11e53e8e-3955-46c1-830e-ebe6bdc36f0c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filtros-aplicados__item-icon > path",
+      "targets": [
+        ["css=.filtros-aplicados__item-icon > path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "f134b9eb-e551-48c6-8e34-565d0dcb6ab5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filtros__item:nth-child(9) > .filtros__title",
+      "targets": [],
+      "value": "Garantía"
+    }, {
+      "id": "61d01a10-f923-4a15-b3e5-2a65a61d8271",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filtros__item:nth-child(9) a",
+      "targets": [],
+      "value": "Con certificados"
+    }, {
+      "id": "efe2d4f4-06cb-4e24-838b-1a7e68e6d71a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filtros-aplicados__item-icon > path",
+      "targets": [
+        ["css=.filtros-aplicados__item-icon > path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "60e23831-c261-4cc4-a7c0-0faa3c8715d9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filtros__item:nth-child(10) > .filtros__title",
+      "targets": [
+        ["css=.filtros__item:nth-child(10) > .filtros__title", "css:finder"],
+        ["xpath=//div[9]/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Kilometraje')]", "xpath:innerText"]
+      ],
+      "value": "Kilometraje"
+    }, {
+      "id": "37164b5c-7233-4286-b88f-c2a78ece7050",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filtros__item:nth-child(10) li:nth-child(1) > a",
+      "targets": [
+        ["css=.filtros__item:nth-child(10) li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(@href, '/auto?km=0')]", "xpath:href"],
+        ["xpath=//div[9]/ul/li/a", "xpath:position"]
+      ],
+      "value": "0 km"
+    }, {
+      "id": "77e90dff-6e0d-4147-9ada-f09db759a0b1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filtros-aplicados__item-icon",
+      "targets": [
+        ["css=.filtros-aplicados__item-icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c802489-da6c-4963-82b0-a5b9dcb9e12b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filtros__item:nth-child(11) > .filtros__title",
+      "targets": [
+        ["css=.filtros__item:nth-child(11) > .filtros__title", "css:finder"],
+        ["xpath=//div[10]/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Carrocerías')]", "xpath:innerText"]
+      ],
+      "value": "Carrocerías"
+    }, {
+      "id": "f10cec4b-4e20-4ed1-8231-1c641a6e3356",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filtros__item:nth-child(11) li:nth-child(4) > a",
+      "targets": [
+        ["css=.filtros__item:nth-child(11) li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(@href, '/auto?s=1')]", "xpath:href"],
+        ["xpath=//div[10]/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": "Hatchback "
+    }, {
+      "id": "514f45fb-e080-4f13-9bc0-22f01116bc85",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filtros-aplicados__item-icon > path",
+      "targets": [
+        ["css=.filtros-aplicados__item-icon > path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "b6a7dac2-9920-4f53-9f86-3b14afdd82a0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filtros__item:nth-child(11) li:nth-child(6) > a",
+      "targets": [
+        ["css=.filtros__item:nth-child(11) li:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(@href, '/auto?s=7')]", "xpath:href"],
+        ["xpath=//div[10]/ul/li[6]/a", "xpath:position"]
+      ],
+      "value": "Pick Up"
+    }, {
+      "id": "1295728a-8c4c-4896-bd9f-af86e262e1c6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filtros-aplicados__item-icon",
+      "targets": [
+        ["css=.filtros-aplicados__item-icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "e526f4b7-b1ed-43f6-a325-fe923af1a5f3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filtros__item:nth-child(11) li:nth-child(8) > a",
+      "targets": [
+        ["css=.filtros__item:nth-child(11) li:nth-child(8) > a", "css:finder"],
+        ["xpath=//a[contains(@href, '/auto?s=6')]", "xpath:href"],
+        ["xpath=//div[10]/ul/li[8]/a", "xpath:position"]
+      ],
+      "value": "Suv"
+    }, {
+      "id": "d5236d34-8093-477a-9c5b-4adf7374aa23",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filtros-aplicados__item-icon > path",
+      "targets": [
+        ["css=.filtros-aplicados__item-icon > path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "4408a74c-930d-47c1-87fa-ff5e22ee1108",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filtros__item:nth-child(12) > .filtros__title",
+      "targets": [
+        ["css=.filtros__item:nth-child(12) > .filtros__title", "css:finder"],
+        ["xpath=//div[11]/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Motorización')]", "xpath:innerText"]
+      ],
+      "value": "Motorización"
+    }, {
+      "id": "06d6a3ce-2239-49ea-98f6-d7c9e10ab15a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filtros__item:nth-child(12) li:nth-child(1) > a",
+      "targets": [
+        ["css=.filtros__item:nth-child(12) li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(@href, '/auto?c=1')]", "xpath:href"],
+        ["xpath=//div[11]/ul/li/a", "xpath:position"]
+      ],
+      "value": "Diesel"
+    }, {
+      "id": "bb147294-e8a3-4e3b-80d0-c1a447585de4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filtros-aplicados__item-icon",
+      "targets": [
+        ["css=.filtros-aplicados__item-icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c93d478-a897-4567-8333-e257b6d8e499",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filtros__item:nth-child(12) li:nth-child(2) > a",
+      "targets": [
+        ["css=.filtros__item:nth-child(12) li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(@href, '/auto?c=4')]", "xpath:href"],
+        ["xpath=//div[11]/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": "Eléctrico"
+    }, {
+      "id": "ec8fe616-d28f-4da1-984e-a33a9fbfed88",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filtros-aplicados__item-icon > path",
+      "targets": [
+        ["css=.filtros-aplicados__item-icon > path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0c42bb5-db23-488e-99e3-5f2a0e16dda2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filtros__item:nth-child(12) li:nth-child(3) > a",
+      "targets": [
+        ["css=.filtros__item:nth-child(12) li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(@href, '/auto?c=3')]", "xpath:href"],
+        ["xpath=//div[11]/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": "Gnc"
+    }, {
+      "id": "7e156e71-8741-4e38-abd8-f674c5db0b30",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filtros-aplicados__item-icon > path",
+      "targets": [
+        ["css=.filtros-aplicados__item-icon > path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "2db2900f-117d-4de0-b5ac-11a823231b41",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filtros__item:nth-child(12) li:nth-child(5) > a",
+      "targets": [
+        ["css=.filtros__item:nth-child(12) li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(@href, '/auto?c=2')]", "xpath:href"],
+        ["xpath=//div[11]/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": "Nafta"
+    }, {
+      "id": "934a523a-2ebf-4388-91ce-57bbd6e6fee7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filtros-aplicados__item-icon > path",
+      "targets": [
+        ["css=.filtros-aplicados__item-icon > path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "42cff24a-b3a6-4787-9c58-c86551cbb842",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filtros__item:nth-child(13) > .filtros__title",
+      "targets": [
+        ["css=.filtros__item:nth-child(13) > .filtros__title", "css:finder"],
+        ["xpath=//div[12]/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Transmisión')]", "xpath:innerText"]
+      ],
+      "value": "Transmisión"
+    }, {
+      "id": "5f018445-d857-4c3c-a6c1-d06d1ae0f135",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filtros__item:nth-child(13) li:nth-child(1) > a",
+      "targets": [
+        ["css=.filtros__item:nth-child(13) li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(@href, '/auto?tr=1')]", "xpath:href"],
+        ["xpath=//div[12]/ul/li/a", "xpath:position"]
+      ],
+      "value": "Automática"
+    }, {
+      "id": "7b96aec9-03e6-4b90-b0b2-57822db0e995",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filtros-aplicados__item-icon",
+      "targets": [
+        ["css=.filtros-aplicados__item-icon", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "df70cab4-af5e-4568-aff5-c1b4c4f1e288",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filtros__item:nth-child(13) li:nth-child(2) > a",
+      "targets": [
+        ["css=.filtros__item:nth-child(13) li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(@href, '/auto?tr=2')]", "xpath:href"],
+        ["xpath=//div[12]/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": "Manual"
+    }, {
+      "id": "5aaacddf-636f-4d2f-922a-6961be80f0c8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filtros-aplicados__item-icon > path",
+      "targets": [
+        ["css=.filtros-aplicados__item-icon > path", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "1e724478-885b-451b-8991-647665aceebc",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.autocosmos.com.ar/"],
+  "plugins": []
+}
